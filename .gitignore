@@ -1,0 +1,44 @@
+# Byte-compiled files
+__pycache__/
+*.py[cod]
+*.pyo
+
+# Environment files
+.env
+*.env
+*.venv
+venv/
+ENV/
+env/
+
+# Logs and database
+*.log
+*.sqlite3
+*.db
+
+# Operating system files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# IDE-specific files
+.idea/
+.vscode/
+
+# Model and large files
+*.h5
+*.json
+*.weights
+
+# Static files (optional: ignore auto-generated content)
+static/generated/
+static/*.tmp
+
+# Temp files
+*.bak
+*.swp
+*.tmp
+*.temp
+
+# Ignore compiled Python files in root (optional)
+*.pyo
