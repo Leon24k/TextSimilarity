@@ -8,7 +8,6 @@ This repository contains a Flask-based API for detecting text similarity using a
 - **Tokenizer Initialization**: Automatically initializes a tokenizer with a sample vocabulary.
 - **REST API Endpoints**:
   - `/predict`: Predicts the similarity between two text inputs.
-  - `/health`: Checks the health of the application.
 
 ---
 
