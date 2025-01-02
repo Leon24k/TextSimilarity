@@ -47,3 +47,40 @@ cd text-similarity-api
 ```
 python app.py
 ```
+
+4. **Access the API**:
+   - Open your browser or use a tool like `curl` or Postman to test the API.
+   - Example for `/predict` endpoint:
+     ```bash
+     curl -X POST -H "Content-Type: application/json" \
+     -d '{"text1": "Text one here", "text2": "Text two here"}' \
+     http://127.0.0.1:5000/predict
+     ```
+
+## Example Response
+
+### `/predict` Endpoint
+Request:
+```json
+{
+  "text1": "I love programming.",
+  "text2": "Coding is my passion."
+}
+```
+
+Response:
+```json
+{
+  "similarity_score": 0.85
+}
+```
+## Contribution Guidelines
+
+Contributions are welcome! Feel free to submit issues or pull requests to improve this project.
+
+---
+
+## License
+
+This project is licensed under the [MIT License](LICENSE). Feel free to use and modify it as needed.
+
