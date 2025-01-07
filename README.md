@@ -75,7 +75,7 @@ Response:
 ```
 ## Contribution Guidelines
 
-Contributions are welcome! Feel free to submit issues or pull requests to improve this project.
+Contributions are welcome! Feel free to submit issues or pull requests to improve this project.😇
 
 ---
 
