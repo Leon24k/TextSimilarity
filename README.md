@@ -19,7 +19,7 @@ Before running the application, ensure you have the following installed:
 - Flask
 - TensorFlow
 - NumPy
-- Pycharm / Collab / Ipynb
+- Pycharm / Collab / Ipynb / Your Fav IDE
 
 Install dependencies using:
 ```bash
